@@ -227,5 +227,78 @@ footer {
         display:grid;
         justify-content: center;
       }
-    
+      header nav {
+        width: 691px;
+        vertical-align: bottom;
+        margin-top: 35px;
+      }
+      
+      header nav a {
+        margin-right: 65px;
+        font-size: 14px;
+        color: gray;
+        text-decoration: none;
+      }
     }
+
+/********************** phone *************************/
+@media screen and (max-width: 500px){
+
+    .cta img {
+        display:none;
+      }
+    .cta .cta-text {
+        vertical-align: top;
+        font-size: 87px;
+        margin-top: 120px;
+        text-align: center;
+        padding-left:30%;
+      }
+
+    header{
+        display:flex;
+        flex-direction:column-reverse;
+      }
+      header .logo {
+        margin-top: 80px;
+        padding-right: 35%;
+    }
+    .bottom-content{
+        display:flex;
+        flex-direction: column
+      }
+
+.main-content .bottom-content .text-content {
+
+    justify-content: center;
+    width: 800px;
+    padding-left: 10%;
+    margin-right: 0px;
+  }
+  .main-content .top-content .text-content {
+    width: 800px;
+    padding-left: 10%;
+  }
+  .top-content{
+    display:flex;
+    flex-direction: column
+  }
+  .text-content{
+      padding: 3%;
+  }
+  header nav {
+    width: 691px;
+    vertical-align: bottom;
+    margin-top: 35px;
+  }
+  
+  header nav a {
+    flex-direction: column;
+    padding: 20%;
+    font-size: 40px;
+    color: gray;
+    text-decoration: none;
+    text-align: center;
+    padding-left:55%;
+  }
+}
